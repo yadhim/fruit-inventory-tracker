@@ -7,11 +7,11 @@ int main(){
  map<string, int> inventory;
 
  while (true) {
-      cout << "\nOptions:\n";
-      cout << "1. add fruit\n";
-     cout  << "2. View inventory\n";
-         cout << "3. Check quantity\n";
-     cout <<"4. Exit\n";
+    cout << "\nOptions:\n";
+    cout << "1. add fruit\n";
+    cout << "2. View inventory\n";
+    cout << "3. Check quantity\n";
+    cout << "4. Exit\n";
 
      string choice;
      cout << "Enter choice (1-4)";
@@ -49,3 +49,7 @@ int main(){
 
         }
         return 0;
+ }
+
+
+}
